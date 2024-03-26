@@ -24,18 +24,26 @@ console.log(score);
 
 // Determine the grade based on the score
 if (score > 79){
-    console.log("You got an A")
+    return "You got an A"
+
 }
 else if (score >= 60 && score <= 79){
-    console.log("You got an B")
+
+    return "You got an B"
 }
 else if (score >= 49 && score <= 59){
-    console.log("You got an C")
+    return "You got an C"
 }
 else if (score >= 40 && score <=48){
-    console.log("You got an D")
+    return "You got an D"
 }
 else if (score < 40){
-    console.log("You got an E")
+    return "You got an E"
 }
 
+
+
+
+
+
+console.log(70)
